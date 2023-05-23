@@ -6,6 +6,7 @@
 (add-to-list 'default-frame-alist '(foreground-color . "#f3f9f1"))
 (add-to-list 'default-frame-alist '(background-color . "#425066")) ;黛蓝
 ;(add-to-list 'default-frame-alist '(background-color . "#41555d")) ;黯
+(set-face-attribute 'default nil :height 140)
 
 
 (set 'inhibit-splash-screen t)
